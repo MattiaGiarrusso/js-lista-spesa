@@ -16,6 +16,11 @@ const list = [
 // Creo la variabile che richiama l'elemento nell'html
 const listItem = document.querySelector('#list-item');
 
+// Creo il ciclo for per prendere ogni elemento dell'array
+for (let i = 0; i < list.length; i++) {
+    
+}
+
 
 
 
