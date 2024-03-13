@@ -16,3 +16,6 @@ const list = [
 // Creo la variabile per selezionare l'elemento nell'html
 const listItem = document.querySelector('#list-item');
 
+// Dichiaro la variabile i
+let i = 0;
+
