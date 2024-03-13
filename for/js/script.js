@@ -19,6 +19,10 @@ const listItem = document.querySelector('#list-item');
 // Creo il ciclo for per prendere ogni elemento dell'array
 for (let i = 0; i < list.length; i++) {
     
+     // Creo la variabile che stampa l'elemento dell'array nell'html
+     const printItem = `<li>${list[i]}</li>`;
+     listItem.innerHTML += printItem;
+     console.log(printItem);
 }
 
 
