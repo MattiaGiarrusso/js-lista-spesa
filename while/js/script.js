@@ -19,3 +19,7 @@ const listItem = document.querySelector('#list-item');
 // Dichiaro la variabile i
 let i = 0;
 
+// Apro il ciclo while definendo la condizione
+while(i<list.length) {
+
+}
