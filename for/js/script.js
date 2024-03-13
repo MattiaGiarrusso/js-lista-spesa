@@ -13,6 +13,9 @@ const list = [
     'Piatti pronti'
 ];
 
+// Creo la variabile che richiama l'elemento nell'html
+const listItem = document.querySelector('#list-item');
+
 
 
 
