@@ -23,9 +23,9 @@ let i = 0;
 while(i<list.length) {
     
     console.log(list[i]);
-    // Fisso la condizione per non far entrare nel loop il ciclo
-    i++
     // Creo la variabile per stampare in html ogni elemento dell'array
     const printItem = `<li>${list[i]}</li>`;
     listItem.innerHTML += printItem;
+    // Fisso la condizione per non far entrare nel loop il ciclo
+    i++
 }
